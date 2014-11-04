@@ -1,0 +1,47 @@
+#blocktacartpopup_footer_hook {}
+#blocktacartpopup_footer_hook .title_block {}
+#blocktacartpopup_footer_hook .block_content li {
+    margin-right: 10px;
+    padding: 10px 0;
+    width: 126px;
+    height: 240px;    
+}
+#blocktacartpopup_footer_hook .block_content a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    color: #333;
+    text-decoration: none;
+    outline: medium none;
+}
+
+#blocktacartpopup_footer_hook .block_content img {
+    border: 1px solid #d1d1d1;
+}
+#blocktacartpopup_footer_hook .block_content span.new {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: -30px;
+    padding: 1px 4px;
+    width: 101px;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    background-color: #990000;
+    transform: rotate(45deg);
+}
+
+#blocktacartpopup_footer_hook .block_content .lnk_more {
+    display: inline;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 10px;
+    color: #0088cc;
+    background: url(img/arrow_right_1.png) no-repeat 100% 3px;
+}
